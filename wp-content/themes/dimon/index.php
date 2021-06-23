@@ -11,7 +11,7 @@ get_header();
         <ul class="SocialLinks">
             <?php foreach(['yt', 'ig', 'fb', 'tt', 'tg', 'vb', 'wa'] as $social):
             if( get_theme_mod( 'field_social_' . $social) != "" ): ?>
-            <li class="SocialLinks__link"><a class="SocialLinks__link-<?php echo $social?>" href="<?php echo get_theme_mod( 'field_social_' . $social); ?>"></a></li>
+            <li class="SocialLinks__link SocialLinks__link-<?php echo $social?>"><a href="<?php echo get_theme_mod( 'field_social_' . $social); ?>"></a></li>
             <?php endif; endforeach; ?>
         </ul>
     </div>
@@ -45,7 +45,7 @@ get_header();
 <section class="Section Section-divider"></section>
 
 <!--PHOTO #1-->
-<section class="Section Section-photo" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/images/bkg_1.png')"></section>
+<section class="Section Section-photo" style="background-image: url('https://ucarecdn.com/459fffe6-4144-4ccc-846b-e6b6be92efd1/bkg_1.png')"></section>
 <!--END PHOTO #1-->
 
 <section class="Section Section-divider"></section>
@@ -70,7 +70,7 @@ get_header();
 <section class="Section Section-divider"></section>
 
 <!--PHOTO #2-->
-<section class="Section Section-photo" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/images/bkg_2.png')"></section>
+<section class="Section Section-photo" style="background-image: url('https://ucarecdn.com/2a9a7562-7d13-4973-ae3c-bfa00bc61985/bkg_2.png')"></section>
 <!--END PHOTO #2-->
 
 <section class="Section Section-divider"></section>
@@ -94,7 +94,7 @@ get_header();
 <section class="Section Section-divider"></section>
 
 <!--PHOTO #3-->
-<section class="Section Section-photo" style="background-image: url('<?php echo get_template_directory_uri();?>/assets/images/bkg_3.png')"></section>
+<section class="Section Section-photo" style="background-image: url('https://ucarecdn.com/244321c4-32b5-442c-a95f-2bf139c8d8f2/bkg_3.png')"></section>
 <!--END PHOTO #3-->
 
 <section class="Section Section-divider"></section>
